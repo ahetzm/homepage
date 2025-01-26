@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+	font-size: 1.5em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #f7f8fa;
+	color: #323236;
+}
+
+a {
+	color: #2747d0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3056f0;
+}
+
+a:active {
+	color: #162891;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #151517;
+		color: #ebedf4;
+	}
+
+	a {
+		color: #72adff;
+	}
+
+	a:hover {
+		color: #3488ff;
+	}
+
+	a:active {
+		color: #c7dfff;
+	}
+}

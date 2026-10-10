@@ -1,0 +1,5 @@
+# Only these files are public website assets.
+*
+!index.html
+!style.css
+!robots.txt

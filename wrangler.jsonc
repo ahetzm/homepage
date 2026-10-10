@@ -1,6 +1,17 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "homepage",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "hetzmannseder.dev",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.hetzmannseder.dev",
+      "custom_domain": true
+    }
+  ],
   "compatibility_date": "2026-05-16",
   "observability": {
     "enabled": true
